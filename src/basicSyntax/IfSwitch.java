@@ -27,9 +27,9 @@ public class IfSwitch {
 				break;
 				
 			case "北海":
-			    System.out.println("北海道");
-			    break;
-			    
+				System.out.println("北海道");
+				break;
+			
 			default:
 				System.out.println("当てはまりません");
 				break;
