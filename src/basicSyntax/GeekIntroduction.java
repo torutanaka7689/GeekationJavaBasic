@@ -10,7 +10,7 @@ public class GeekIntroduction {
 	
 	public static void specialSkill(int num1,int num2) {
 
-		while(num1 <= num2){
+		while(num1 <= 100){
 			
 			num1++;
 			
