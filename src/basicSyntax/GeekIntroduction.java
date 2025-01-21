@@ -11,6 +11,9 @@ public class GeekIntroduction {
 	public static void specialSkill(int num1,int num2) {
 
 		while(num1 <= num2){
+			
+			num1++;
+			
 			if(num1 < 1 || num2 < 1) {
 				System.out.println("num1とnum2は0より大きい値にしてください");
 				break;
@@ -32,10 +35,9 @@ public class GeekIntroduction {
 				continue;
 			}
 			else if(num1 % 5 == 0) {
-				System.out.println(num2 + "は5の倍数です。");
+				System.out.println(num1 + "は5の倍数です。");
 				continue;
 			}
-			num2++;
 		}
 
 	}
