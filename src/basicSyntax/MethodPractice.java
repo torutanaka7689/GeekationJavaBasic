@@ -7,17 +7,12 @@ public class MethodPractice {
 		int a = 10;
 		int b = 5;
 		
-		System.out.println("計算結果は"+addNumbers(a,b)+"です。");
-		System.out.println("計算結果は"+subNumbers(a,b)+"です。");
-		System.out.println("計算結果は"+mulNumbers(a,b)+"です。");
-		System.out.println("計算結果は"+divNumbers(a,b)+"です。");
+		results(a,b);
+		
 	}
 	
 	public static int addNumbers(int a,int b) {
-		int sum = a + b;
-		
-		return sum;
-
+		return  a + b;
 	}
 	
 	public static int subNumbers(int a,int b) {
@@ -33,10 +28,24 @@ public class MethodPractice {
 		return mul;
 	}
 	
-	public static int divNumbers(int num1,int num2) {
-		int div = num1 / num2;
+	public static int divNumbers(int a,int b) {
+		int div = a / b;
 		
 		return div;
+	}
+	
+	public static void results(int a,int b) {
+		
+		int addresult = addNumbers(a,b);
+		int subresult = subNumbers(a,b);
+		int mulresult = mulNumbers(a,b);
+		int divresult = divNumbers(a,b);
+		
+		System.out.println("計算結果は" + addresult + "です。");
+		System.out.println("計算結果は" + subresult + "です。");
+		System.out.println("計算結果は" + mulresult + "です。");
+		System.out.println("計算結果は" + divresult + "です。");
+		
 	}
 
 }
