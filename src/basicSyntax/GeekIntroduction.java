@@ -16,14 +16,13 @@ public class GeekIntroduction {
 		else if(num1 >= num2) {
 			System.out.println("num2はnum1より大きい値にしてください。");
 			}
+		else if(num1 >300 || num2 >300) {
+			System.out.println("num1とnum2は300以下にしてください。");
+			}
 		else {
 			while(num1 <= num2){
 				
-				if(num1 >300 || num2 >300) {
-					System.out.println("num1とnum2は300以下にしてください");
-					break;
-					}
-				else if(num1 % 3 == 0 && num1 % 5 == 0) {
+				if(num1 % 3 == 0 && num1 % 5 == 0) {
 					System.out.println(num1 + "は3の倍数かつ5の倍数です。");
 					num1++;
 					continue;

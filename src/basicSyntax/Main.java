@@ -9,8 +9,8 @@ public class Main {
 		
 		GeekIntroduction.greeting(age,height);
 		
-		int num1 = 1;
-		int num2 = 300;
+		int num1 = 300;
+		int num2 = 299;
 		
 		GeekIntroduction.specialSkill(num1,num2);
 		
